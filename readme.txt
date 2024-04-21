@@ -22,8 +22,25 @@ This project was coded in Python 3.12.3.
 
 ==========================================================
 
-How to Play
+How to run
 ==========================================================
+
+1. Ensure Python 3.12 is installed on your machine. The
+   easiest way to do this on Windows is to open the ter-
+   minal and input 'python', then follow the prompts. 
+2. Download the three .py files and put them in the same
+   folder.
+3. In your terminal, navigate to the folder you put the 
+   files in.
+4. Input 'python SolitaireDice.py' to start the game.
+
+
+==========================================================
+
+How to play
+==========================================================
+
+==Scoring==
 
 The game presents you with 5 dice. You pick two pairs of 
 dice from them and leave one behind.
@@ -44,6 +61,11 @@ There is a maximum number of £ you can earn in a row.
 After that, you may still collect that pair, but it will 
 not add more points. 
 
+In a standard game, ending with 500 or more points is 
+considered a win. 
+
+==Throwaway Dice==
+
 Each time you select two pairs, you leave one throwaway 
 die. This throwaway die is added to a meter; once that 
 meter is full, your run is over and your final score is 
@@ -57,13 +79,10 @@ If your roll contains no dice that can be thrown away, the
 remaining die that round vanishes. This is called a Free
 Ride.
 
-In a standard game, ending with 500 or more points is 
-considered a win. 
-
 
 ==========================================================
 
-Valid inputs:
+Valid inputs
 ==========================================================
 
 Pairs can be input in the following formats:
@@ -79,7 +98,7 @@ Other commands (available any time):
 
 ==========================================================
 
-Credits:
+Credits
 ==========================================================
 
 Original game designed by Sid Sackson and described in his
