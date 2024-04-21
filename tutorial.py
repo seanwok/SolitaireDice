@@ -344,17 +344,17 @@ class Player:
         self.score = -210
         self.out = False
         self.pairs = {
-            2: {"marks": 0, "multiplier": (100 * game.rules["point_factor"])},
-            3: {"marks": 2, "multiplier": (70 * game.rules["point_factor"])},
-            4: {"marks": 0, "multiplier": (60 * game.rules["point_factor"])},
-            5: {"marks": 7, "multiplier": (50 * game.rules["point_factor"])},
-            6: {"marks": 0, "multiplier": (40 * game.rules["point_factor"])},
-            7: {"marks": 8, "multiplier": (30 * game.rules["point_factor"])},
-            8: {"marks": 4, "multiplier": (40 * game.rules["point_factor"])},
-            9: {"marks": 5, "multiplier": (50 * game.rules["point_factor"])},
-            10: {"marks": 0, "multiplier": (60 * game.rules["point_factor"])},
-            11: {"marks": 0, "multiplier": (70 * game.rules["point_factor"])},
-            12: {"marks": 0, "multiplier": (100 * game.rules["point_factor"])}
+            2: {"marks": 0, "multiplier": (10 * game.rules["point_factor"]["v"])},
+            3: {"marks": 2, "multiplier": (7 * game.rules["point_factor"]["v"])},
+            4: {"marks": 0, "multiplier": (6 * game.rules["point_factor"]["v"])},
+            5: {"marks": 7, "multiplier": (5 * game.rules["point_factor"]["v"])},
+            6: {"marks": 0, "multiplier": (4 * game.rules["point_factor"]["v"])},
+            7: {"marks": 8, "multiplier": (3 * game.rules["point_factor"]["v"])},
+            8: {"marks": 4, "multiplier": (4 * game.rules["point_factor"]["v"])},
+            9: {"marks": 5, "multiplier": (5 * game.rules["point_factor"]["v"])},
+            10: {"marks": 0, "multiplier": (6 * game.rules["point_factor"]["v"])},
+            11: {"marks": 0, "multiplier": (7 * game.rules["point_factor"]["v"])},
+            12: {"marks": 0, "multiplier": (10 * game.rules["point_factor"]["v"])}
         }
         self.throwaway_dice = {
             1: 6,

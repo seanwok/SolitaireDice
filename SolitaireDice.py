@@ -545,7 +545,7 @@ class UI:
             # label + flexible white space
             f"Points{(blocks['blank'] * (self.rules['max_point_marks']["v"] - 2))}"
             # end labels
-            f"{blocks['times']}n    {blocks['equals']}Total\n"
+            f"{blocks['times']}Bonus{blocks['equals']}Total\n"
         )
         # Appends a display of marks for each scoring pair and total score for that pair.
         for pair in self.pairs:
