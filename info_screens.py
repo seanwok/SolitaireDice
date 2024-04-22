@@ -170,7 +170,7 @@ rule_adjust_top = (
     "==========================================================\n"
     "\n"
     "\n"   
-    "Rule                  Current  Minimum  Maximum  Default\n"
+    "Rule                    Current  Minimum  Maximum  Default\n"
 )
 
 rule_adjust_bottom = (

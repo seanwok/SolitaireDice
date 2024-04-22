@@ -362,13 +362,13 @@ class Solitaire_dice:
                 others.append(player)
         s = info_screens.end_game
         if len(winners) > 0:
-            s += "    Winners:\n\n"
+            s += "Winners:\n\n"
             for player in winners:
-                s += f"{    player.score:>6}: {player.name}\n"
+                s += f"{    player.score:>7}: {player.name}\n"
         if len(others) > 0:
-            s += "    Losers\n\n"
+            s += "\n\nAttempts:\n\n"
             for player in others: 
-                s += f"{    player.score:>5}: {player.name}\n"
+                s += f"{    player.score:>7}: {player.name}\n"
         s += "\n\n"
         return s
 
